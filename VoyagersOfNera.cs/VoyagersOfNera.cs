@@ -74,8 +74,6 @@ namespace WindowsGSM.Plugins
 
             //sb.Append($" -ini:Engine:[EpicOnlineServices]:DeploymentId={config.DeploymentId}");
             sb.Append($" -port={serverData.ServerPort}");
-            sb.Append($" -queryPort={serverData.ServerQueryPort}");
-            sb.Append($" -multihome={serverData.ServerIP}");
             sb.Append($" {serverData.ServerParam}");
 
             // Prepare Process
