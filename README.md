@@ -7,7 +7,8 @@
 - QueryPort seems not be setable, it is either 7778 or Port+1 UDP, not sure yet
 - If You have complicated Networking with different Public IP's, it is settable either via global environment variable in windows or try  the cs file
   - add Line 109: p.StartInfo.EnvironmentVariables.Add("EOS_OVERRIDE_HOST_IP", "YOUR.PUBLIC.IP_TO_BE_USED");
-    - a line before "// Start Process"     
+    - a line before "// Start Process"
+- if you want a logging file add -LoggingInShippingEnabled=true in EditConfig=> server Start Param
 ### WindowsGSM Installation: 
 1. Download  WindowsGSM https://windowsgsm.com/ 
 2. Create a Folder at a Location you wan't all Server to be Installed and Run.
