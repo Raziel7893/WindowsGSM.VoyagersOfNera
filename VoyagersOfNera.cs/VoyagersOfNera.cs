@@ -36,7 +36,7 @@ namespace WindowsGSM.Plugins
         public string FullName = "VoyagersOfNera Dedicated Server"; // Game server FullName
 
         public bool AllowsEmbedConsole = true;  // Does this server support output redirect?
-        public int PortIncrements = 1; // This tells WindowsGSM how many ports should skip after installation
+        public int PortIncrements = 2; // This tells WindowsGSM how many ports should skip after installation
 
         // - Game server default values
         public string Port = "7777"; // Default port
@@ -44,7 +44,7 @@ namespace WindowsGSM.Plugins
 
         // TODO: Following options are not supported yet, as ther is no documentation of available options
         public string Maxplayers = "16"; // Default maxplayers        
-        public string QueryPort = "27015"; // Default query port. This is the port specified in the Server Manager in the client UI to establish a server connection.
+        public string QueryPort = "7778"; // Default query port. This is the port specified in the Server Manager in the client UI to establish a server connection.
         // TODO: Unsupported option
         public string Defaultmap = "Dedicated"; // Default map name
         // TODO: Undisclosed method
