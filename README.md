@@ -3,6 +3,11 @@
 
 ## PLEASE ⭐STAR⭐ THE REPO IF YOU LIKE IT! THANKS!
 
+### Notes
+- QueryPort seems not be setable, it is either 7778 or Port+1 UDP, not sure yet
+- If You have complicated Networking with different Public IP's, it is settable either via global environment variable in windows or try  the cs file
+  - add Line 109: p.StartInfo.EnvironmentVariables.Add("EOS_OVERRIDE_HOST_IP", "YOUR.PUBLIC.IP_TO_BE_USED");
+    - a line before "// Start Process"     
 ### WindowsGSM Installation: 
 1. Download  WindowsGSM https://windowsgsm.com/ 
 2. Create a Folder at a Location you wan't all Server to be Installed and Run.
@@ -16,7 +21,7 @@
 4. Or Press on the Puzzle Icon in the left bottom side and press **[IMPORT PLUGIN]** and choose the downloaded .zip
 
 ### Official Documentation
-🗃️ nothing found yet
+🗃️ https://treehousegames.notion.site/How-to-Host-Dedicated-Servers-1debc50b8edb803b9d5bd4dbfdb32c2c
 
 ### The Game
 🕹️ https://store.steampowered.com/app/2686630/Voyagers_of_Nera/
