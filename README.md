@@ -1,7 +1,7 @@
 # WindowsGSM.VoyagersOfNera
 🧩WindowsGSM plugin that provides VoyagersOfNera Dedicated server
 
-## PLEASE ⭐STAR⭐ THE REPO IF YOU LIKE IT! THANKS!
+### PLEASE ⭐STAR⭐ THE REPO IF YOU LIKE IT! CHECK THE TIP OPTION ON THE BOTTOM IF YOU LIKE MY WORK!
 
 ### Notes
 - QueryPort seems not be setable, it is either 7778 or Port+1 UDP, not sure yet
